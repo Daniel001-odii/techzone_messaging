@@ -24,8 +24,8 @@ app.use(express.json())
 
 
 // Connect to MongoDB
-// var dbUrl = 'mongodb+srv://admin:admin@cluster0.3rg9h4v.mongodb.net/?retryWrites=true&w=majority'
-var dbUrl = 'mongodb://127.0.0.1:27017/Techzone_full'
+var dbUrl = 'mongodb+srv://admin:admin@cluster0.3rg9h4v.mongodb.net/?retryWrites=true&w=majority'
+// var dbUrl = 'mongodb://127.0.0.1:27017/Techzone_full'
 // Database connection
 mongoose.connect(dbUrl , function (err, db) {
   console.log('message database connected...',err);
